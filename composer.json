@@ -1,0 +1,24 @@
+{
+	"name": "samwilson/kohana_dbauth",
+	"type": "kohana-module",
+	"description": "A driver for the Kohana Auth module, to authenticate as a database user.",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/samwilson/kohana_dbauth/issues",
+		"forum": "http://discourse.kohanaframework.org",
+		"irc": "irc://irc.freenode.net/kohana",
+		"source": "https://github.com/samwilson/kohana_dbauth"
+	},
+	"authors": [
+		{
+			"name": "Sam Wilson",
+			"email": "sam@samwilson.id.au",
+			"homepage": "http://samwilson.id.au",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"kohana/auth": "*",
+		"kohana/database": "*"
+	}
+}
